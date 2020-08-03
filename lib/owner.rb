@@ -44,7 +44,8 @@ class Owner
     self.dogs.each {|dog| dog.mood="happy"}
    # binding.pry
   end
-  
+  def feed_cats
+    self.cats.each {|cat| cat.mood="happy"}
 end
 
 
