@@ -57,8 +57,7 @@ end
 def list_pets
   num_of_cats=self.cats.count
   num_of_dogs=self.dogs.count
-  "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s).")
-end
+  "I have #{num_of_dogs} dog(s), and #{num_of_cats} cat(s)."
 end
 
 
