@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # or I can do create a getter method
   #   def name
