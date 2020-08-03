@@ -48,7 +48,8 @@ class Owner
     self.cats.each {|cat| cat.mood="happy"}
   end
   def sell_pets
-    Cat.all
+    Cat.all.clear
+    Dod.all.clear
   end
 end
 
