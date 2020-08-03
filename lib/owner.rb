@@ -52,7 +52,6 @@ class Owner
   pets.each do |pet| 
     pet.mood="nervous"
     pet.owner=nil
-    binding.pry
   end
 end
 
